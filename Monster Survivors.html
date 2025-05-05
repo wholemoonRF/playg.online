@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors | Fullscreen Survival Game - PlayG.online</title>
+    <meta name="description" content="Play Monster Survivors in fullscreen mode - The ultimate browser-based survival action game with endless monster waves.">
+    <link rel="canonical" href="https://playg.online/monster-survivors">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .game-aspect {
+            aspect-ratio: 16/9;
+        }
+        @media (min-width: 768px) {
+            .game-aspect {
+                height: 70vh;
+                aspect-ratio: unset;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+    <div class="container max-w-6xl mx-auto px-4 py-8">
+        <!-- 标题区 -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tighter">
+                MONSTER<br>SURVIVORS
+            </h1>
+            <p class="text-gray-600 text-lg md:text-xl">
+                Survive the monster onslaught in this intense action-packed browser game
+            </p>
+        </header>
+
+        <!-- 主滚动区 -->
+        <div class="space-y-8">
+            <!-- 游戏容器 -->
+            <div class="game-aspect bg-white rounded-xl shadow-lg overflow-hidden">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                    class="w-full h-full border-0"
+                    allow="fullscreen"
+                    title="Monster Survivors Game"
+                    loading="eager">
+                </iframe>
+            </div>
+
+            <!-- 内容分栏 -->
+            <div class="grid md:grid-cols-2 gap-8 pb-12">
+                <!-- 左栏 -->
+                <div class="space-y-6">
+                    <section>
+                        <h2 class="text-2xl font-semibold text-gray-900 mb-3">Game Overview</h2>
+                        <p class="text-gray-600 leading-relaxed">
+                            Monster Survivors is a thrilling survival action game where players battle endless waves of mysterious creatures. Collect experience gems to unlock powerful upgrades, enhance your abilities, and survive as long as possible in this ever-increasing challenge.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold text-gray-900 mb-3">How to Play</h2>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Move with WASD or Arrow Keys</li>
+                            <li>Auto-attack nearby enemies</li>
+                            <li>Collect experience gems to level up</li>
+                            <li>Choose powerful upgrades each level</li>
+                            <li>Survive as long as possible!</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <!-- 右栏 -->
+                <div class="space-y-6">
+                    <section>
+                        <h2 class="text-2xl font-semibold text-gray-900 mb-3">Features</h2>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Endless survival gameplay</li>
+                            <li>20+ unique power-ups</li>
+                            <li>Progressive difficulty system</li>
+                            <li>Leaderboard integration</li>
+                            <li>Mobile-friendly controls</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold text-gray-900 mb-3">About Us</h2>
+                        <p class="text-gray-600 leading-relaxed">
+                            PlayG.online is dedicated to bringing you the best browser-based gaming experience. All games are carefully selected for quality and compatibility across both desktop and mobile devices.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
